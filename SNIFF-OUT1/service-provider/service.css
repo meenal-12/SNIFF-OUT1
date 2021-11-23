@@ -1,0 +1,63 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	overflow: hidden;
+}
+a.service {
+    font-size: 31px;
+    position: absolute;
+    left: 746px;
+    top: 23px;
+}
+.link1 {
+
+	margin: 21px;
+}
+.intro{
+    align-content: center;
+  
+  
+}
+.backg {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+ .container{ 
+     display: flex;
+     flex-direction: column;
+     background-color: white;
+     height: 75vh;
+     width: 123vh;
+     position: absolute;
+     left: 539px;
+     border-radius: 12px;
+     
+ }
+.container div{
+    margin: 20px;
+}
+.heading{
+    color: rgb(255, 24, 255);
+}
+.shortbio{
+    color: rgb(111, 1, 255);
+}
+.contact{
+    color: rgb(0, 0, 0);
+}
+.UPDATE a {
+    margin: 205px;
+    padding: 21pxx;
+    position: relative;
+    top: 21px;
+}

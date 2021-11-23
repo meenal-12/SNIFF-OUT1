@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.backg {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 654px;
+    top: 79px;
+    background-color: bisque;
+    height: 475px;
+    width: 407px;
+    justify-content: space-between;
+    border-radius: 19px;
+    box-shadow: 5px 5px 5px #ff8080;
+}
+.form div,button{
+    margin:6px;
+}
+a.service {
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 207px;
+    top: -37px;
+}
