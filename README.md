@@ -9,9 +9,9 @@
 
 
 ### PHP Folder Structure
-	
+PHP/	
 ├───database
-│       users0210.sql
+│       ├── users0210.sql
 │
 ├───EMERGENCY-INFO
 │       4.png
