@@ -10,49 +10,142 @@
 
 ### PHP Folder Structure
 	
-	PHP/
-	├── css/ (contains all the css files)
-	│    ├── bootstrap.css
-	│    ├── bootstrap.min.css
-	│    └── index.css
-    ├── database/ (contains database)
-    |	 └──ecommerce.sql
-	├── fonts/ (contains glyphicons)
-	│    ├── glyphicons-halflings-regular.eot
-	│    ├── glyphicons-halflings-regular.svg
-	│    ├── glyphicons-halflings-regular.ttf
-	│    ├── glyphicons-halflings-regular.woff
-	│    └── glyphicons-halflings-regular.woff2
-	├── js/ (contains Bootstrap Js files.)
-	│    ├── bootstrap.js
-	│    └── bootstrap.min.js
-	├──  img/
-	│    └── (contains all images required for developing the website)
-	├──  includes/	 
-	│    ├── check-if-added.php
-	│    ├── common.php
-	│    ├── footer.php
-	│    └── header.php
-	├──  cart-add.php
-	├──  cart-remove.php
-	├──  cart.php 
-	├──  index.php
-	├──  login.php
-	├──  login_script.php
-	├──  logout_script.php
-	├──  products.php
-	├──  settings.php
-	├──  settings-script.php
-	├──  signup.php
-	├──  signup_script.php
-	└──  success.php
+├───database
+│       users0210.sql
+│
+├───EMERGENCY-INFO
+│       4.png
+│       index.php
+│       style.css
+│
+├───forgotpass
+│   │   index.php
+│   │   main.js
+│   │   style.css
+│   │   _dbconnect.php
+│   │
+│   └───images
+│           1.png
+│           forgetpass.png
+│           undraw_profile_pic_ic5t.svg
+│
+├───hostel
+│   │   index.php
+│   │   style.css
+│   │
+│   └───images
+│           hostel.png
+│           logo.png
+│
+├───login
+│   │   index.php
+│   │   main.js
+│   │   README.md
+│   │   style.css
+│   │   _dbconnect.php
+│   │
+│   └───images
+│           1.png
+│           login.png
+│           undraw_profile_pic_ic5t.svg
+│
+├───main
+│   │   main.css
+│   │   main.php
+│   │
+│   └───images
+│           logo.png
+│           main.png
+│
+├───register
+│   │   index.php
+│   │   main.js
+│   │   style.css
+│   │   _dbconnect.php
+│   │
+│   └───images
+│           1.png
+│           register.png
+│           undraw_profile_pic_ic5t.svg
+│
+├───service-provider
+│   │   main.php
+│   │   service.css
+│   │   service.php
+│   │   style.css
+│   │   update.css
+│   │   update.php
+│   │
+│   ├───forgotpass
+│   │   │   index.php
+│   │   │   main.js
+│   │   │   style.css
+│   │   │   _dbconnect.php
+│   │   │
+│   │   └───images
+│   │           1.png
+│   │           forgetpass.png
+│   │           undraw_profile_pic_ic5t.svg
+│   │
+│   ├───images
+│   │       3.png
+│   │       4.png
+│   │       logo.png
+│   │       logop.png
+│   │       main.png
+│   │
+│   └───login
+│       │   index.php
+│       │   main.js
+│       │   README.md
+│       │   style.css
+│       │   _dbconnect.php
+│       │
+│       └───images
+│               1.png
+│               login.png
+│               undraw_profile_pic_ic5t.svg
+│
+├───Services
+│   │   hdisplay.php
+│   │   hdisplay1.php
+│   │   hostel.php
+│   │   mess.php
+│   │   _dbconnect.php
+│   │
+│   ├───css
+│   │       hdisplay.css
+│   │       hostel.css
+│   │       style.css
+│   │
+│   ├───images
+│   │       1.png
+│   │       5.png
+│   │       login.png
+│   │       logo.png
+│   │       undraw_cooking_lyxy.svg
+│   │       undraw_profile_pic_ic5t.svg
+│   │       undraw_quite_town_mg2q.svg
+│   │
+│   └───js
+│           man.js
+│
+└───VS Code
+    │   index.php
+    │   _dbconnect.php
+    │
+    ├───css
+    │       styles.css
+    │
+    └───images
+            6.png
 
 ### SETUP			
 1. Start the Apache and MySQL modules using the XAMPP controller.
 2. Open the phpMyAdmin and create a database "users0210". 
 3. Import the users0210.sql file present in the zip folder.
 4. Open the htdocs folder in the xampp folder. Copy paste the folder SNIFF-OUT1.
-5. Open the browser (chrome), type localhost/SNIFF-OUT and you should see the index page of the website.
+5. Open the browser (chrome), type localhost/SNIFF-OUT1 and you should see the index page of the website.
 
 *******************************************************************************************************************************************
 CONTACT: meenalchourasiya@gmail.com
